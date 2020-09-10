@@ -1,2 +1,2 @@
 # aula_javascript
-Introduction to JavaScript
+These are some notes I took while watching a JavaScript class on [Digital Innovation One](https://digitalinnovation.one/).
