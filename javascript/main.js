@@ -1,7 +1,5 @@
 function button() {
-    document.getElementById('clicked').innerHTML = '<b>Thank you for clicking on it.<b/>';
-    //console.log(document.getElementById('clicked'));
-    //alert('Thank you for clicking on it.');
+    document.getElementById('clicked').innerHTML = '<strong>Thank you for clicking on it.</strong>';
 }
 
 function redirect() {
@@ -12,7 +10,6 @@ function redirect() {
 function shift(element) {
     element.innerHTML = 'Thank you for hovering!';
     //document.getElementById('mouseover').innerHTML = 'Thank you for hovering!';
-    //alert('Change text')
 }
 
 function back(element) {
@@ -28,7 +25,7 @@ function onChange(element) {
     console.log(element.value);
 }
 
-/*function validateAge(age) {
+/* function validateAge(age) {
     var validation;
     if (age >= 18) {
         validation = true;
@@ -38,22 +35,19 @@ function onChange(element) {
     return validation;
 }
 var age = prompt('How old are you?')
-console.log(validateAge(age));
+console.log(validateAge(age)); */
 
-function sum(n1, n2){
+/* function sum(n1, n2){
     return n1 + n2;
 }
-alert(sum(5, 10));
+alert(sum(5, 10)); */
 
-function setReplace(phrase, name, new_name) {
+/* function setReplace(phrase, name, new_name) {
     return phrase.replace(name, new_name);
 };
-alert(setReplace('Brazil SUCKS!', 'Brazil', 'North Corea'));
+alert(setReplace('Brazil SUCKS!', 'Brazil', 'North Korea')); */
 
-var d = new Date();
-alert(d.get());
-
-var count;
+/* var count;
 for (count = 0; count <= 5; count++) {
     alert(count);
 };
@@ -61,19 +55,19 @@ for (count = 0; count <= 5; count++) {
 while (count <= 5) {
     console.log(count);
     count++;
-};
+}; */
 
-var age = prompt("How old are you?");
+/*var age = prompt("How old are you?");
 if (age >= 18) {
     alert('You\'re good to go.');
 }else {
     alert('Get out of here!');
-};
+}; */
 
-var fruits = [{name:'Apple', color:'Red'}, {name:'Banana', color:'Yellow'}]
-console.log(fruits);
+/* var fruits = [{name:'Apple', color:'Red'}, {name:'Banana', color:'Yellow'}]
+console.log(fruits); */
 
-var list = ['Apple', 'Banana', 'Watermelon'];
+/*var list = ['Apple', 'Banana', 'Watermelon'];
 console.log(list);
 list.push('Blueberry')
 console.log(list);
@@ -81,10 +75,10 @@ list.pop();
 console.log(list.toString());
 console.log(list.join(' - '));
 console.log(list.reverse());
-console.log(list.length);
+console.log(list.length); */
 
-var name = 'Carlos Daniel';
+/* var name = 'Carlos Daniel';
 var age = '19';
 var statement = 'Friends is the best TV series ever!';
 alert(name + ' is ' + age + ' years old.');
-console.log(statement.replace('Friends', 'The Office').toUpperCase());*/
+console.log(statement.replace('Friends', 'The Office').toUpperCase()); */
